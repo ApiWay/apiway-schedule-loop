@@ -1,0 +1,30 @@
+{
+  "name": "apiway-schedule-loop",
+  "version": "0.0.1",
+  "description": "Schedule loop for apiway.io",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/loop.js",
+    "test": "mocha --opts ./mocha.opts test/*.spec.js"
+  },
+  "dependencies": {
+    "apiway.js": "latest",
+    "async": "2.3.0",
+    "node-schedule": "^1.2.3",
+    "promise": "^7.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ApiWay/apiway-schedule-loop.git"
+  },
+  "keywords": [
+    "schedule",
+    "apiway"
+  ],
+  "author": "bluehackmaster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ApiWay/apiway-schedule-loop/issues"
+  },
+  "homepage": "https://github.com/ApiWay/apiway-schedule-loop#readme"
+}
